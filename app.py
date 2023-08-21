@@ -59,7 +59,7 @@ chrome_options.add_argument("--no-sandbox")
 
 driver = webdriver.Chrome(options=chrome_options)
 
-num_pages = 4
+num_pages = 20
 
 data = []
 for page in range(1, num_pages + 1):
